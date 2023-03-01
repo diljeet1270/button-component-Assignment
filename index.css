@@ -1,0 +1,48 @@
+.Primary{
+    background-color: blueviolet;
+    border-radius: 4px;
+}
+.Primary:hover{
+    border: 2px solid black;
+    background-color: rgb(120, 18, 216);
+    color: white;
+}
+.Accent{
+    background-color: blue;
+    border-radius: 4px;
+}
+.Accent:hover{
+    border: 2px solid black;
+    background-color: rgb(36, 36, 178);
+    color: wheat;
+}
+.danger{
+    background-color: red;
+    border-radius: 4px;
+}
+.Large{
+    size: large;
+    border-radius: 4px;
+}
+.Small{
+    padding: 0;
+    border-radius: 4px;
+}
+.Pill{
+   border-radius: 10px;
+}
+.Custom{
+    background-color: blue;
+    border-radius: 4px;
+}
+.Custom:hover{
+    color: white;
+    background-color: rgb(41, 41, 202);
+    width: 65px;
+    height: 30px;
+}
+.Custom:active {
+    background-color: blue;
+    box-shadow: 0 5px blue;
+    transform: translateY(4px);
+  }
